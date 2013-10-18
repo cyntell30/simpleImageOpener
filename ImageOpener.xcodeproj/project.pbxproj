@@ -18,6 +18,8 @@
 		621542581811913400D740D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621542371811913400D740D9 /* Cocoa.framework */; };
 		621542601811913400D740D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6215425E1811913400D740D9 /* InfoPlist.strings */; };
 		621542621811913400D740D9 /* ImageOpenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621542611811913400D740D9 /* ImageOpenerTests.m */; };
+		6215426E1811967100D740D9 /* MLCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6215426C1811967100D740D9 /* MLCMasterViewController.m */; };
+		6215426F1811967100D740D9 /* MLCMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6215426D1811967100D740D9 /* MLCMasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		6215425D1811913400D740D9 /* ImageOpenerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageOpenerTests-Info.plist"; sourceTree = "<group>"; };
 		6215425F1811913400D740D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		621542611811913400D740D9 /* ImageOpenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageOpenerTests.m; sourceTree = "<group>"; };
+		6215426B1811967100D740D9 /* MLCMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCMasterViewController.h; sourceTree = "<group>"; };
+		6215426C1811967100D740D9 /* MLCMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCMasterViewController.m; sourceTree = "<group>"; };
+		6215426D1811967100D740D9 /* MLCMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLCMasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				6215424C1811913400D740D9 /* MainMenu.xib */,
 				6215424F1811913400D740D9 /* Images.xcassets */,
 				6215423E1811913400D740D9 /* Supporting Files */,
+				6215426B1811967100D740D9 /* MLCMasterViewController.h */,
+				6215426C1811967100D740D9 /* MLCMasterViewController.m */,
+				6215426D1811967100D740D9 /* MLCMasterViewController.xib */,
 			);
 			path = ImageOpener;
 			sourceTree = "<group>";
@@ -232,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				621542421811913400D740D9 /* InfoPlist.strings in Resources */,
+				6215426F1811967100D740D9 /* MLCMasterViewController.xib in Resources */,
 				621542501811913400D740D9 /* Images.xcassets in Resources */,
 				621542481811913400D740D9 /* Credits.rtf in Resources */,
 				6215424E1811913400D740D9 /* MainMenu.xib in Resources */,
@@ -253,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6215426E1811967100D740D9 /* MLCMasterViewController.m in Sources */,
 				621542441811913400D740D9 /* main.m in Sources */,
 				6215424B1811913400D740D9 /* MLCAppDelegate.m in Sources */,
 			);
